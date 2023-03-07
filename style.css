@@ -1,6 +1,13 @@
+@media only screen and (max-width: 375px) {
+    main{
+        
+    }
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
     width: 100%;
+    min-height: 100vh;
 }
 .perfume{
     font-family: Montserrat,'Courier New', Courier, monospace;
@@ -20,6 +27,7 @@ main {
     display: flex;
     justify-content: center;
     margin: 5%;
+    flex-direction: row;
 }
 
 article{
